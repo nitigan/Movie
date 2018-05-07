@@ -1,9 +1,9 @@
 import Vue from 'vue'
-import App from 'Components/App.vue'
+import App from 'Components/app.vue'
 
 new Vue({
     el: '#app',
-    render(createElement) {
+    render (createElement){
         return createElement(App)
     }
 })
